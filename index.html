@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PWA Consumindo API</title>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Atividade CRUD</title>
 </head>
+
 <body>
-  <h1>Criar ou atualizar registro</h1>
-  <form id="registro-form">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome">
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
-    <br>
-    <button type="submit" id="submit-btn">Criar registro</button>
-    <button type="button" id="update-btn">Atualizar registro</button>
-  </form>
-  
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script type="module" src="main.js"></script>
+
+    <h1 class="text-center container2">Atividade Crud</h1>
+    <section>
+        <form method="POST" onSubmit="{registerUser}">
+            <label for="login ">Nome</label>
+
+            <input type="text " id='nome' name='nome' autocomplete='off'>
+
+            <label for="email ">Email</label>
+            <input type='email' id='email.' name='email' autocomplete='off'>
+
+            <div class="container4 ">
+
+                <div>
+                    <button type="button" class="btn btn-light bt-cadas">
+                        <a class="text-white" href="Cadastro.html">Criar</a>
+                    </button>
+                </div>
+                <div class="col-md">
+
+                </div>
+                <div>
+                    <button type='button ' class=" btn btn-light bt-conect">
+                        <a class="text-white" href="index-inicio.html">Atualizar</a>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer class=" text-center text-white" style=" background-color:  #af00ff;">
+       
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color:  #7101a5;">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
+
 </html>

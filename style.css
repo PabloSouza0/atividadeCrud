@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff !important;
+}
+
+form {
+    display: flex!important;
+    flex-direction: column!important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+  
+}
+
+label {
+    width: 211px!important;
+    height: 34px!important;
+    font-family: 'Franklin Gothic Medium'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 25px!important;
+    line-height: 20px!important;
+    color: #000000!important;
+    margin-top: 27px!important;
+    margin-left: 10px!important;
+}
+
+input {
+    box-sizing: border-box !important;
+    width: 326px!important;
+    height: 35px;
+    background: #c781f5!important;
+    border: 1px solid #000000!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)!important;
+    border-radius: 25px;
+    transition: all 0.5s;
+    padding-left: 5%;
+    color: white !important;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px hsl(293, 100%, 50%)!important;
+}
+
+.bt-cadas{
+    width: 110px;
+    height: 40px;
+   background-color: rgb(0, 123, 255) !important;
+   border: 1px solid black !important;
+   border-radius: 1px;
+   box-shadow: 0px 0px 5px #000000!important;
+}
+
+
+
+.bt-conect{
+    width: 110px;
+    height: 40px;
+   background-color: rgb(13, 169, 19) !important;
+   border: 1px solid black !important;
+   box-shadow: 0px 0px 5px hsl(0, 0%, 0%)!important;
+ 
+}
+
+.bt-conect:hover{
+   background-color: rgb(10, 124, 14) !important; 
+}
+.bt-cadas:hover{
+    background-color:  rgb(2, 96, 196) !important; 
+ }
+
+.container4 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.valid {
+    display: block;
+    animation: valid 1s forwards;
+}
+
+
+footer {
+    position: fixed !important;
+    bottom:0 !important;
+    left: 0 !important;
+    width: 100%;
+}
+    
+
+.container {
+ 
+    margin-bottom: 0px !important;
+    height: 100px;
+    
+}
+
+
+
+.container2 {
+    margin-top: 7%;
+    font-family: 'Franklin Gothic Medium'!important;
+    font-style: normal !important;
+    font-size: 45px !important;
+}
+
+
+
+
+
+
+
